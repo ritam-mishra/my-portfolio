@@ -341,6 +341,10 @@ home__title{
   margin-left: var(--mb-0-5);
   transition: .3s;
 }
+.button--white{
+  background-color: white;
+  color: var(--first-color);
+}
 
 .button--flex{
   display: inline-flex;
@@ -723,8 +727,33 @@ home__title{
   outline: none;
 }
 /*==================== PROJECT IN MIND ====================*/
+.project{
+  text-align: center;
+}
 
+.project__bg{
+  background-color: var(--first-color-second);
+  padding-top: 3rem;
+}
 
+.project__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: var(--mb-0-75);
+}
+
+.project__description{
+  margin-bottom: var(--mb-1-5);
+}
+
+.project__title, .project__description{
+  color: rgba(254,215,0,255);
+}
+
+.project__img{
+  width: 305px;
+  height: 305px;
+  justify-self: center;
+}
 /*==================== TESTIMONIAL ====================*/
 
 

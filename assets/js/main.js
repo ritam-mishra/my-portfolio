@@ -52,7 +52,7 @@ skillsHeader.forEach((el) =>{
 /*==================== QUALIFICATION TABS ====================*/
 
 
-/*==================== experiences MODAL ====================*/
+/*==================== EXPERIENCES MODAL ====================*/
 
 const modalViews = document.querySelectorAll('.experiences__modal'),
     modalBtns = document.querySelectorAll('.experiences__button'),
@@ -89,7 +89,7 @@ let swiper = new Swiper('.portfolio__container', {
     },
   });
 
-/*==================== TESTIMONIAL ====================*/
+/*==================== PROJECT IN MIND ====================*/
 
 
 /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
