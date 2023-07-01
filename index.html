@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     
     <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -447,7 +447,48 @@
         
         <!--==================== PORTFOLIO ====================-->
         <section class="portfolio section" id="portfolio">
-            
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most recent Projects<span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- PORTFOLIO1 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/cruddur-banner.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Cruddur</h3>
+                            <p class="portfolio__description">Working to make an ephemeral micro-blogging app to make it production ready.</p>
+                            <p class="portfolio__description">Building the application using microservices architecture and AWS Cloud services.</p>
+                            <a href="https://github.com/ritam-mishra/aws-bootcamp-cruddur-2023" class="button button--flex button--small portfolio__button">
+                                Repo Link
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- PORTFOLIO2 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/ci.cd-banner.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">DevOps CI/CD</h3>
+                            <p class="portfolio__description">Using advanced CI/CD tools on a springboot application</p>
+                            <a href="" class="button button--flex button--small portfolio__button">
+                                Repo Link
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
         </section>
         
         <!--==================== PROJECT IN MIND ====================-->
@@ -475,7 +516,7 @@
     
     
     <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
     
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
