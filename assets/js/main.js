@@ -29,14 +29,14 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*==================== ACCORDION SKILLS ====================*/
+/*==================== SKILLS ====================*/
 const skillsContent = document.getElementsByClassName('skills__content'),
       skillsHeader = document.querySelectorAll('.skills__header')
 
 function toggleSkills(){
     let itemClass = this.parentNode.className
 
-    for(i=0; i< skillsContent.length; i++){
+    for(i=0; i < skillsContent.length; i++){
         skillsContent[i].className = 'skills__content skills__close'
     }
     if(itemClass === 'skills__content skills__close'){
@@ -79,7 +79,7 @@ modalCloses.forEach((modalClose) => {
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiper = new Swiper('.portfolio__container', {
     cssMode: true,
-    loop: true,
+    // loop: true,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
